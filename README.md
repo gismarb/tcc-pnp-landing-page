@@ -266,3 +266,18 @@ Ela não representa a aplicação final do TCC, mas uma página de apresentaçã
 ## 14. Licença
 
 Este projeto está licenciado sob os termos da licença MIT.
+
+---
+
+## 15. Página publicada
+
+Acesse a landing page em:
+
+https://gismarb.github.io/tcc-pnp-landing-page/
+
+**Referências Técnicas**
+
+- [GitHub Pages - Documentação oficial](https://docs.github.com/pt/pages)
+- [Configurar uma fonte de publicação para o GitHub Pages](https://docs.github.com/pt/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site)
+- [GitHub Actions para GitHub Pages](https://docs.github.com/pt/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)
+- [Deploy de aplicação Vite em site estático](https://vite.dev/guide/static-deploy)
