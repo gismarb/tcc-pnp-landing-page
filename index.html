@@ -1,13 +1,308 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>tcc-pnp-landing-page</title>
+    <meta
+      name="description"
+      content="Landing Page de apresentação do projeto de TCC sobre ingestão, tratamento e disponibilização de dados da Plataforma Nilo Peçanha."
+    />
+    <title>Landing Page TCC - Plataforma Nilo Peçanha</title>
   </head>
+
   <body>
-    <div id="app"></div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success fixed-top shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#inicio">TCC PNP</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#menuPrincipal"
+          aria-controls="menuPrincipal"
+          aria-expanded="false"
+          aria-label="Abrir menu de navegação"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="menuPrincipal" class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre">Sobre o TCC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#funcionalidades">Funcionalidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tecnologias">Tecnologias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+          </ul>
+
+          <button id="btnTema" class="btn btn-outline-light ms-lg-3" type="button">
+            Alternar tema
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main id="inicio">
+      <section class="hero-section d-flex align-items-center">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+              <span class="badge text-bg-light text-success mb-3">
+                Projeto de TCC
+              </span>
+
+              <h1 class="display-5 fw-bold mb-3">
+                Aplicação Web para Dados da Plataforma Nilo Peçanha
+              </h1>
+
+              <p class="lead mb-4">
+                Uma solução baseada em engenharia de dados, API e interface Web
+                para apoiar a análise de indicadores da Educação Profissional,
+                Científica e Tecnológica.
+              </p>
+
+              <p class="mb-4">
+                O projeto propõe automatizar a ingestão, o tratamento, a
+                consolidação e a disponibilização de dados da Plataforma Nilo
+                Peçanha, facilitando consultas, análises, exportações e geração
+                de insights.
+              </p>
+
+              <div class="d-flex flex-wrap gap-2">
+                <a href="#funcionalidades" class="btn btn-light btn-lg">
+                  Ver funcionalidades
+                </a>
+                <a href="#tecnologias" class="btn btn-outline-light btn-lg">
+                  Ver tecnologias
+                </a>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="hero-image-card">
+                <img
+                  src="/img/pnp-flow.svg"
+                  class="img-fluid"
+                  alt="Diagrama do fluxo de dados do projeto baseado na Plataforma Nilo Peçanha"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="sobre" class="section-padding">
+        <div class="container">
+          <div class="row justify-content-center text-center mb-5">
+            <div class="col-lg-8">
+              <h2 class="fw-bold">Sobre o TCC</h2>
+              <p class="text-muted">
+                A Plataforma Nilo Peçanha reúne dados importantes sobre a Rede
+                Federal de Educação Profissional, Científica e Tecnológica.
+                Porém, para uso analítico, esses dados podem exigir coleta,
+                organização, padronização e estruturação.
+              </p>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="info-box h-100">
+                <h3 class="h5">Problema</h3>
+                <p>
+                  Dados públicos podem estar distribuídos em diferentes formatos
+                  e exigir etapas manuais antes de serem usados em análises.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="info-box h-100">
+                <h3 class="h5">Proposta</h3>
+                <p>
+                  Criar uma aplicação Web capaz de coletar, tratar, consolidar
+                  e disponibilizar os dados de forma mais organizada.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="info-box h-100">
+                <h3 class="h5">Resultado Esperado</h3>
+                <p>
+                  Apoiar consultas, indicadores, dashboards, exportações e
+                  consumo dos dados tratados por meio de uma API.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="funcionalidades" class="section-padding bg-body-tertiary">
+        <div class="container">
+          <div class="row justify-content-center text-center mb-5">
+            <div class="col-lg-8">
+              <h2 class="fw-bold">Funcionalidades Previstas</h2>
+              <p class="text-muted">
+                A solução proposta organiza o ciclo dos dados desde a origem até
+                a disponibilização para consulta, análise e exportação.
+              </p>
+            </div>
+          </div>
+
+          <div class="row g-4">
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h3 class="card-title h5">Ingestão de Dados</h3>
+                  <p class="card-text">
+                    Coleta de dados da Plataforma Nilo Peçanha e, futuramente,
+                    de outras fontes oficiais ou arquivos complementares.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h3 class="card-title h5">Tratamento e Padronização</h3>
+                  <p class="card-text">
+                    Limpeza, validação, transformação e organização dos dados
+                    para melhorar sua consistência e uso analítico.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h3 class="card-title h5">API de Consumo</h3>
+                  <p class="card-text">
+                    Disponibilização dos dados tratados por meio de endpoints
+                    para consulta por sistemas, dashboards ou aplicações.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h3 class="card-title h5">Interface Web</h3>
+                  <p class="card-text">
+                    Visualização de indicadores, filtros, tabelas e informações
+                    consolidadas por meio de uma aplicação Web.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h3 class="card-title h5">Exportação de Dados</h3>
+                  <p class="card-text">
+                    Possibilidade de exportar dados tratados em formatos como
+                    CSV, JSON ou outros formatos definidos no projeto.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-4">
+              <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                  <h3 class="card-title h5">Rastreabilidade</h3>
+                  <p class="card-text">
+                    Registro de cargas, origem dos dados, falhas, status de
+                    processamento e informações de monitoramento.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="tecnologias" class="section-padding">
+        <div class="container">
+          <div class="row align-items-center g-4">
+            <div class="col-lg-6">
+              <h2 class="fw-bold">Tecnologias Previstas no Projeto de TCC</h2>
+              <p class="text-muted">
+                As tecnologias abaixo se referem ao sistema completo proposto no
+                TCC, e não apenas a esta landing page acadêmica.
+              </p>
+
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <strong>Python e FastAPI:</strong> back-end, API e integração.
+                </li>
+                <li class="list-group-item">
+                  <strong>PostgreSQL:</strong> armazenamento dos dados tratados e consolidados.
+                </li>
+                <li class="list-group-item">
+                  <strong>MongoDB ou staging:</strong> camada para dados brutos ou semiestruturados.
+                </li>
+                <li class="list-group-item">
+                  <strong>Engenharia de Dados:</strong> ingestão, validação, limpeza e transformação.
+                </li>
+                <li class="list-group-item">
+                  <strong>Interface Web:</strong> consulta, filtros, indicadores e visualização.
+                </li>
+              </ul>
+            </div>
+
+            <div class="col-lg-6">
+              <div class="tech-note">
+                <h3 class="h5">Sobre esta Landing Page</h3>
+                <p>
+                  Esta página foi desenvolvida como atividade acadêmica de
+                  Front-End utilizando HTML, Bootstrap, TypeScript e Vite.
+                </p>
+
+                <div class="alert alert-success mb-0">
+                  Funcionalidade TypeScript: alternância entre tema claro e
+                  escuro com manipulação de classes CSS.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contato" class="footer-section w-100">
+      <div class="container">
+        <div class="row g-4 align-items-center">
+          <div class="col-md-7">
+            <h2 class="h5 mb-2">Landing Page de Apresentação do TCC</h2>
+            <p class="mb-1">Nome: Gismar Pereira Barbosa</p>
+            <p class="mb-1">Curso: Pós Graduação Especialização em Desenvolvimento Web e Mobile (IF Sudeste MG)</p>
+            <p class="mb-0">Semestre: 2026/1</p>
+          </div>
+
+          <div class="col-md-5 text-md-end">
+            <p class="mb-1">E-mail: gismar_barbosa@yahoo.com.br</p>
+            <p class="mb-1">GitHub: github.com/gismarb</p>
+            <p class="mb-1">LinkedIn: linkedin.com/in/gismar</p>
+            <p id="dataAtual" class="small mb-0"></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>

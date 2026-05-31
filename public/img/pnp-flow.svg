@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="900"
+   height="520"
+   viewBox="0 0 900 520"
+   role="img"
+   aria-labelledby="title desc"
+   version="1.1"
+   id="svg1623"
+   sodipodi:docname="pnp-flow_.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs1627" />
+  <sodipodi:namedview
+     id="namedview1625"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="1.4722687"
+     inkscape:cx="409.57196"
+     inkscape:cy="329.42355"
+     inkscape:window-width="1908"
+     inkscape:window-height="2075"
+     inkscape:window-x="1924"
+     inkscape:window-y="40"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg1623" />
+  <title
+     id="title">Fluxo de dados da Plataforma Nilo Peçanha</title>
+  <desc
+     id="desc">Diagrama ilustrando o fluxo de dados da PNP para ingestão, tratamento, consolidação, API e interface web.</desc>
+  <rect
+     width="900"
+     height="520"
+     rx="32"
+     fill="#f8f9fa"
+     id="rect1563" />
+  <text
+     x="450"
+     y="60"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="28"
+     font-weight="700"
+     fill="#14532d"
+     id="text1565">
+    Fluxo de Dados do Projeto
+  </text>
+  <g
+     font-family="Arial, sans-serif"
+     font-size="18"
+     font-weight="600"
+     id="g1597">
+    <rect
+       x="80"
+       y="140"
+       width="170"
+       height="80"
+       rx="18"
+       fill="#198754"
+       id="rect1567" />
+    <text
+       x="165"
+       y="173"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text1569">Plataforma</text>
+    <text
+       x="165"
+       y="198"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text1571">Nilo Peçanha</text>
+    <rect
+       x="365"
+       y="140"
+       width="170"
+       height="80"
+       rx="18"
+       fill="#0d6efd"
+       id="rect1573" />
+    <text
+       x="450"
+       y="173"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text1575">Ingestão</text>
+    <text
+       x="450"
+       y="198"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text1577">de Dados</text>
+    <rect
+       x="650"
+       y="140"
+       width="170"
+       height="80"
+       rx="18"
+       fill="#198754"
+       id="rect1579" />
+    <text
+       x="735"
+       y="173"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text1581">Tratamento</text>
+    <text
+       x="735"
+       y="198"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text1583">e Validação</text>
+    <rect
+       x="220"
+       y="320"
+       width="190"
+       height="80"
+       rx="18"
+       fill="#dc3545"
+       id="rect1585" />
+    <text
+       x="315"
+       y="353"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text1587">Dados</text>
+    <text
+       x="315"
+       y="378"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text1589">Consolidados</text>
+    <rect
+       x="500"
+       y="320"
+       width="190"
+       height="80"
+       rx="18"
+       fill="#0d6efd"
+       id="rect1591" />
+    <text
+       x="595"
+       y="353"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text1593">API / Interface</text>
+    <text
+       x="595"
+       y="378"
+       text-anchor="middle"
+       fill="#ffffff"
+       id="text1595">Web / Exportação</text>
+  </g>
+  <g
+     id="g1230">
+    <path
+       d="M 250,180 H 365"
+       id="path1599"
+       style="fill:none;stroke:#343a40;stroke-width:4;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="M 535,180 H 650"
+       id="path1601"
+       style="fill:none;stroke:#343a40;stroke-width:4;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="m 735,220 c 0,55 -85,95 -140,100"
+       id="path1603"
+       style="fill:none;stroke:#343a40;stroke-width:4;stroke-linecap:round;stroke-linejoin:round" />
+    <path
+       d="M 500,360 H 410"
+       id="path1605"
+       style="fill:none;stroke:#343a40;stroke-width:4;stroke-linecap:round;stroke-linejoin:round" />
+  </g>
+  <g
+     id="g1224">
+    <polygon
+       points="358,188 358,172 372,180 "
+       id="polygon1611"
+       style="fill:#343a40" />
+    <polygon
+       points="643,188 643,172 657,180 "
+       id="polygon1613"
+       style="fill:#343a40" />
+    <polygon
+       points="599,312 608,324 592,326 "
+       id="polygon1615"
+       style="fill:#343a40"
+       transform="rotate(28.351833,600,319)" />
+    <polygon
+       points="417,368 417,352 403,360 "
+       id="polygon1617"
+       style="fill:#343a40" />
+  </g>
+  <text
+     x="450"
+     y="470"
+     text-anchor="middle"
+     font-family="Arial, sans-serif"
+     font-size="16"
+     fill="#495057"
+     id="text1621">
+    Coleta, organização e disponibilização de dados educacionais tratados
+  </text>
+  <metadata
+     id="metadata1805">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>Fluxo de dados da Plataforma Nilo Peçanha</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
