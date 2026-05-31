@@ -254,12 +254,12 @@ Ela não representa a aplicação final do TCC, mas uma página de apresentaçã
 
 ## 13. Autor
 
-**Nome:** Gismar Pereira Barbosa  
-**Curso:** Pós Graduação Especialização em Desenvolvimento Web e Mobile (IF Sudeste MG) 
-**Semestre:** 2026/1  
-**E-mail:** gismar_barbosa@yahoo.com.br
-**GitHub:** https://github.com/gismarb 
-**LinkedIn:** https://linkedin.com/in/gismar 
+- **Nome:** Gismar Pereira Barbosa  
+- **Curso:** Pós Graduação Especialização em Desenvolvimento Web e Mobile (IF Sudeste MG)
+- **Semestre:** 2026/1  
+- **E-mail:** gismar_barbosa@yahoo.com.br
+- **GitHub:** https://github.com/gismarb 
+- **LinkedIn:** https://linkedin.com/in/gismar 
 
 ---
 
